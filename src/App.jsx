@@ -1,13 +1,17 @@
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import Problem from "./components/Problem/Problem";
+import ChatDemo from "./components/ChatDemo/ChatDemo";
+import WhatHappened from "./components/WhatHappened/WhatHappened";
+import CTA from "./components/CTA/CTA";
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Problem />
+      <ChatDemo />
+      <WhatHappened />
+      <CTA />
     </>
   );
 }
