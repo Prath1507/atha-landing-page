@@ -1,0 +1,56 @@
+:root{
+  --primary:#5B4BFF;
+  --primary-dark:#4338CA;
+
+  --background:#F8FAFC;
+  --card:#FFFFFF;
+
+  --text:#111827;
+  --text-light:#6B7280;
+
+  --border:#E5E7EB;
+
+  --success:#14B8A6;
+
+  --radius:22px;
+
+  --shadow:0 20px 60px rgba(0,0,0,.08);
+
+  --max-width:1200px;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:'Manrope',sans-serif;
+  background:var(--background);
+  color:var(--text);
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+button{
+  font-family:inherit;
+  cursor:pointer;
+}
+
+img{
+  max-width:100%;
+  display:block;
+}
+
+.container{
+  width:min(92%, var(--max-width));
+  margin:auto;
+}
