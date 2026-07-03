@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import "./ChatDemo.css";
-import conversation from "./conversation.js";
+import conversation from "./Conversation";
 
 
 function ChatDemo() {
